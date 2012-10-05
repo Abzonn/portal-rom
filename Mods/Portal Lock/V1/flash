@@ -1,8 +1,0 @@
-#!/bin/bash
-
-echo "Will flash lock V1 now."
-cd ~/Dropbox/Portal\ ROm/AndroidSDK/platform-tools
-./adb devices
-./adb remount
-./adb push ~/Dropbox/Portal\ ROM/Mods/Portal\ Lock/V1/framework-res.apk /system/framework
-./adb reboot
